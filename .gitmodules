@@ -1,0 +1,3 @@
+[submodule "lib/ftm"]
+	path = lib/ftm
+	url = git@github.com:investigativedata/ftm-joy-ui.git
