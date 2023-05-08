@@ -107,6 +107,18 @@ export default function AboutScreen() {
         | <Link href="https://github.com/aivuk">github</Link> |{" "}
         <Link href="Edgar Zanella Alvarenga ">gitlab</Link>
       </Paragraph>
+      <Headline level="h5">Previous team</Headline>
+      <Paragraph>
+        In an earlier stage,{" "}
+        <Link href="https://journocode.com/en/profiles/elena-erdmann">
+          Elena Erdmann
+        </Link>{" "}
+        and{" "}
+        <Link href="https://de.linkedin.com/in/karl-scholze-a0574063">
+          Karl Scholze
+        </Link>{" "}
+        contributed to the project as well.
+      </Paragraph>
     </Stack>
   );
 }
