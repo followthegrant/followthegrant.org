@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import Stack from "@mui/joy/Stack";
+import Grid from "@mui/joy/Grid";
 
 import MainLink from "~/components/MainLink";
 import { Paragraph } from "~/components/common";
@@ -21,7 +22,7 @@ export default function IndexScreen() {
           info@followthegrant.org
         </Link>
       </Paragraph>
-      <Stack direction="row" gap={2}>
+      <Grid container gap={2}>
         <MainLink
           title="About"
           summary="Find out more about the project"
@@ -40,7 +41,7 @@ export default function IndexScreen() {
           openmoji="1F4F0"
           linkTo="/stories"
         />
-      </Stack>
+      </Grid>
     </Stack>
   );
 }
