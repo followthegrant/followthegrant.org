@@ -8,7 +8,7 @@ import Stack from "@mui/joy/Stack";
 import Grid from "@mui/joy/Grid";
 import JTypography from "@mui/joy/Typography";
 
-import { OpenMoji } from "~/components/common";
+import OpenMoji from "~/components/common/OpenMoji";
 
 import mizLogo from "~/assets/miz.png";
 import ptfLogo from "~/assets/ptf.png";

@@ -9,7 +9,8 @@ import Stack from "@mui/joy/Stack";
 
 import Awards from "~/components/Awards";
 import { Catalog } from "~/lib/ftm/components";
-import { Paragraph, Headline, OpenMoji } from "~/components/common";
+import { Paragraph, Headline } from "~/components/common/typo";
+import OpenMoji from "~/components/common/OpenMoji";
 
 export default function AwardScreen({ awards }: { awards: Award[] }) {
   return (

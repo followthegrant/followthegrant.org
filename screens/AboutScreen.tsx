@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import Stack from "@mui/joy/Stack";
 
-import { Paragraph, Headline } from "~/components/common";
+import { Paragraph, Headline } from "~/components/common/typo";
 
 export default function AboutScreen() {
   return (

@@ -7,7 +7,7 @@ import Link from "next/link";
 import Stack from "@mui/joy/Stack";
 
 import { Catalog } from "~/lib/ftm/components";
-import { Paragraph, Headline } from "~/components/common";
+import { Paragraph, Headline } from "~/components/common/typo";
 
 export default function DataScreen({ catalog }: { catalog: INKCatalog }) {
   return (

@@ -5,7 +5,7 @@ import Card from "@mui/joy/Card";
 import Chip from "@mui/joy/Chip";
 import Typography from "@mui/joy/Typography";
 
-import { OpenMoji } from "~/components/common";
+import OpenMoji from "~/components/common/OpenMoji";
 
 type TLink = {
   openmoji: string;

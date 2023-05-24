@@ -9,7 +9,7 @@ import Stack from "@mui/joy/Stack";
 
 import Stories from "~/components/Stories";
 import { Catalog } from "~/lib/ftm/components";
-import { Paragraph, Headline } from "~/components/common";
+import { Paragraph, Headline } from "~/components/common/typo";
 
 export default function StoryScreen({ stories }: { stories: Story[] }) {
   return (

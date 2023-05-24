@@ -7,7 +7,7 @@ import Box from "@mui/joy/Box";
 import Button from "@mui/joy/Button";
 import Card from "@mui/joy/Card";
 import Typography from "@mui/joy/Typography";
-import { OpenMoji } from "~/components/common";
+import OpenMoji from "~/components/common/OpenMoji";
 
 function Award({ award }: { award: Award }) {
   return (
