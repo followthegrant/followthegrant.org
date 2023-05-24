@@ -7,3 +7,12 @@ export type Story = {
   readonly language: string;
   readonly image_url?: string;
 };
+
+export type Award = {
+  readonly year: string;
+  readonly name: string;
+  readonly organization: string;
+  readonly title: string;
+  readonly category: string;
+  readonly url: string;
+};

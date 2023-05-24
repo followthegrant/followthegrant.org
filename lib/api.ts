@@ -1,11 +1,19 @@
 import Papa from "papaparse";
 
 import type { INKDataset, INKCatalog } from "~/lib/ftm/types";
-import type { Story } from "~/types";
-import { CATALOG_URL, STORIES_URL } from "~/config";
+import type { Story, Award } from "~/types";
+import { CATALOG_URL, STORIES_URL, AWARDS_URL } from "~/config";
 
 export async function getCatalog(): Promise<INKCatalog> {
   return await api(CATALOG_URL);
+}
+
+export async function getAwards(): Promise<Award[]> {
+  const res = await fetch(AWARDS_URL);
+  const csv = await res.text();
+  const { data } = Papa.parse(csv, { header: true });
+  const awards = data as Award[];
+  return awards;
 }
 
 export async function getStories(): Promise<Story[]> {

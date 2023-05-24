@@ -50,7 +50,7 @@ export default function DataScreen({ catalog }: { catalog: INKCatalog }) {
         Catalog
       </Headline>
       <Paragraph sx={{ paddingBottom: 1 }}>
-        These data sources are included in our databases:
+        We have used information from the following data sources:
       </Paragraph>
       <Catalog catalog={catalog} />
     </Stack>

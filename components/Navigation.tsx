@@ -15,6 +15,10 @@ const ITEMS = [
     label: "Investigations",
     url: "/stories",
   },
+  {
+    label: "Awards",
+    url: "/awards",
+  },
 ];
 
 export default function Navigation() {

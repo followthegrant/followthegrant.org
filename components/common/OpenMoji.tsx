@@ -6,6 +6,8 @@ const SHORTCUTS: { [key: string]: string } = {
   newspaper: "1F4F0",
   mail: "2709",
   github: "E045",
+  nominated: "1F3C5",
+  won: "1F3C6",
 };
 
 export default function OpenMoji({
