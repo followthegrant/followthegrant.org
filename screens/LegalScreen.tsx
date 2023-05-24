@@ -30,12 +30,14 @@ export default function LegalScreen() {
         <br />
         <strong>Impressum nach § 5 TMG</strong>
         <br />
-        IDIO Daten Import Export UG (haftungsbeschränkt) i. G.
+        FollowTheGrant<br />
+        c/o IDIO Daten Import Export UG (haftungsbeschränkt)
         <br />
         ExRotaprint, Aufgang 4<br />
+        Gottschedstr. 4<br />
         13357 Berlin
         <br />
-        Registered: AG Berlin (Charlottenburg), HRB [tbs]
+        Registered: Charlottenburg (Berlin), HRB 252764
         <br />
         Managing Director: Simon Wörpel
       </Paragraph>
