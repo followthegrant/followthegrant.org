@@ -31,6 +31,16 @@ export default function LegalScreen() {
         Managing Director: Simon Wörpel
       </Paragraph>
       <Headline level="h3" color="primary">
+        Credits
+      </Headline>
+      <Paragraph>
+        Emojis designed by <Link href="https://openmoji.org/">OpenMoji</Link> –
+        the open-source emoji and icon project. License:{" "}
+        <Link href="https://creativecommons.org/licenses/by-sa/4.0/">
+          CC BY-SA 4.0
+        </Link>
+      </Paragraph>
+      <Headline level="h3" color="primary">
         Disclaimer
       </Headline>
       <Headline level="h4" color="primary">
