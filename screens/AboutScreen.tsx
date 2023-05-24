@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import Stack from "@mui/joy/Stack";
 
-import { Paragraph, Headline } from "~/components/common";
+import { Paragraph, Headline } from "~/components/common/typo";
 
 export default function AboutScreen() {
   return (
@@ -59,10 +59,10 @@ export default function AboutScreen() {
         conflict of interest statements from scientific articles. Many
         scientific journals require their authors to disclose such conflicts of
         interest when publishing scientific articles. We aim to enable
-        journalists to quickly check what potential conflicts of interest a
-        particular expert has. It can also be the foundation for investigative
-        reporting looking at discrepancies in the disclosure of funding and
-        conflicts of interest.
+        journalists to check what potential conflicts of interest a particular
+        expert has. It can also be the foundation for investigative reporting
+        looking at discrepancies in the disclosure of funding and conflicts of
+        interest.
       </Paragraph>
       <Headline level="h3" color="primary">
         The team
@@ -71,15 +71,19 @@ export default function AboutScreen() {
       <Paragraph>
         Hristio Boytchev is the founder and project manager of Follow the Grant.
         He is responsible for the journalistic direction of the project. Hristio
-        is a freelance science and health journalist, focusing on data-driven
-        and investigative reporting. From 2015 to 2017 Hristio was a reporter
-        for the investigative non-profit newsroom Correctiv. In 2016, he was
-        voted third among the science journalists of the year by the jury of
-        Medium Magazine. In 2012, he was an Arthur F. Burns Fellow at the
-        science desk of the Washington Post. Hristio holds graduate degrees in
-        biology and journalism.
+        is a Berlin based investigative health and science journalist, focusing
+        on research integrity and systemic problems in health. He is currently
+        at the investigation unit of The BMJ (formerly known as The British
+        Medical Journal). He was awarded the “European Science Journalist of the
+        Year 2021” prize by the European Federation for Science Journalism.
+        Hristio has worked for the German investigative non-profit Correctiv and
+        the Science Media Center Germany.
         <br />
-        <Link href="https://hrist.io">hrist.io</Link>
+        <Link href="https://hrist.io">hrist.io</Link> |{" "}
+        <Link href="https://twitter.com/hristio">twitter</Link> |{" "}
+        <Link href="https://www.linkedin.com/in/hristio-boytchev-36047a1b2/">
+          LinkedIn
+        </Link>
       </Paragraph>
       <Headline level="h5">Simon Wörpel</Headline>
       <Paragraph>

@@ -5,7 +5,7 @@ import Stack from "@mui/joy/Stack";
 import Grid from "@mui/joy/Grid";
 
 import MainLink from "~/components/MainLink";
-import { Paragraph } from "~/components/common";
+import { Paragraph } from "~/components/common/typo";
 
 export default function IndexScreen() {
   return (

@@ -15,6 +15,8 @@ const nextConfig = {
       "civio.es",
       "upload.wikimedia.org",
       "cdn.investigativedata.org",
+      "gutepillen-schlechtepillen.de",
+      "efsj.eu",
     ].map((hostname) => ({
       protocol: "https",
       hostname,

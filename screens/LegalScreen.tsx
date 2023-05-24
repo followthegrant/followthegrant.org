@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import Stack from "@mui/joy/Stack";
 
-import { Paragraph, Headline } from "~/components/common";
+import { Paragraph, Headline } from "~/components/common/typo";
 
 export default function LegalScreen() {
   return (
@@ -16,28 +16,29 @@ export default function LegalScreen() {
         Impressum
       </Headline>
       <Paragraph>
-        <strong>verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</strong>
-        <br />
-        Hristio Boytchev
-        <br />
-        <Link
-          href="mailto:hristio@followthegrant.org"
-          style={{ color: "inherit" }}
-        >
-          hristio@followthegrant.org
-        </Link>
-        <br />
-        <br />
-        <strong>Impressum nach § 5 TMG</strong>
-        <br />
-        IDIO Daten Import Export UG (haftungsbeschränkt) i. G.
+        followthegrant.org is operated by (Impressum nach § 5 TMG, ebenso
+        verantwortlich für den Inhalt nach § 55 Abs. 2 RStV):
+      </Paragraph>
+      <Paragraph>
+        IDIO Daten Import Export UG (haftungsbeschränkt)
         <br />
         ExRotaprint, Aufgang 4<br />
+        Gottschedstr. 4<br />
         13357 Berlin
         <br />
-        Registered: AG Berlin (Charlottenburg), HRB [tbs]
+        Registered: Charlottenburg (Berlin), HRB 252764
         <br />
         Managing Director: Simon Wörpel
+      </Paragraph>
+      <Headline level="h3" color="primary">
+        Credits
+      </Headline>
+      <Paragraph>
+        Emojis designed by <Link href="https://openmoji.org/">OpenMoji</Link> –
+        the open-source emoji and icon project. License:{" "}
+        <Link href="https://creativecommons.org/licenses/by-sa/4.0/">
+          CC BY-SA 4.0
+        </Link>
       </Paragraph>
       <Headline level="h3" color="primary">
         Disclaimer

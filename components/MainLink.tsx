@@ -1,10 +1,11 @@
+import NLink from "next/link";
 import AspectRatio from "@mui/joy/AspectRatio";
 import Link from "@mui/joy/Link";
 import Card from "@mui/joy/Card";
 import Chip from "@mui/joy/Chip";
 import Typography from "@mui/joy/Typography";
 
-import { OpenMoji } from "~/components/common";
+import OpenMoji from "~/components/common/OpenMoji";
 
 type TLink = {
   openmoji: string;
@@ -35,14 +36,11 @@ export default function MainLink({ openmoji, title, summary, linkTo }: TLink) {
           {title}
         </Typography>
         <Typography aria-describedby="card-description" mb={1}>
-          <Link
-            overlay
-            underline="none"
-            href={linkTo}
-            sx={{ color: "text.tertiary" }}
-          >
-            {summary}
-          </Link>
+          <NLink href={linkTo} passHref legacyBehavior>
+            <Link overlay underline="none" sx={{ color: "text.tertiary" }}>
+              {summary}
+            </Link>
+          </NLink>
         </Typography>
         <Chip
           variant="soft"

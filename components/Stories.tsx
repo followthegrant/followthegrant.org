@@ -1,6 +1,7 @@
 import type { Story } from "~/types";
 
 import Image from "next/image";
+import LaunchIcon from "@mui/icons-material/Launch";
 import Link from "@mui/joy/Link";
 import Grid from "@mui/joy/Grid";
 import AspectRatio from "@mui/joy/AspectRatio";
@@ -41,10 +42,11 @@ function Story({ story }: { story: Story }) {
 
       <Link overlay href={story.url}>
         <Button
-          variant="solid"
+          variant="outlined"
+          endDecorator={<LaunchIcon />}
           size="sm"
           color="primary"
-          aria-label="Explore Bahamas Islands"
+          aria-label="More information"
           sx={{ ml: "auto", fontWeight: 600 }}
         >
           Read

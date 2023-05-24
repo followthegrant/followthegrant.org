@@ -7,7 +7,7 @@ import Link from "next/link";
 import Stack from "@mui/joy/Stack";
 
 import { Catalog } from "~/lib/ftm/components";
-import { Paragraph, Headline } from "~/components/common";
+import { Paragraph, Headline } from "~/components/common/typo";
 
 export default function DataScreen({ catalog }: { catalog: INKCatalog }) {
   return (
@@ -44,13 +44,13 @@ export default function DataScreen({ catalog }: { catalog: INKCatalog }) {
       </Paragraph>
       <Paragraph>
         Please <Link href="mailto:info@followthegrant.org">contact us</Link> if
-        you need access to our data or want to collaborate on an investigation.
+        you want to collaborate on an investigation.
       </Paragraph>
       <Headline level="h3" color="primary">
         Catalog
       </Headline>
       <Paragraph sx={{ paddingBottom: 1 }}>
-        These data sources are included in our databases:
+        We have used information from the following data sources:
       </Paragraph>
       <Catalog catalog={catalog} />
     </Stack>
