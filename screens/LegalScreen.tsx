@@ -16,22 +16,11 @@ export default function LegalScreen() {
         Impressum
       </Headline>
       <Paragraph>
-        <strong>verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</strong>
-        <br />
-        Hristio Boytchev
-        <br />
-        <Link
-          href="mailto:hristio@followthegrant.org"
-          style={{ color: "inherit" }}
-        >
-          hristio@followthegrant.org
-        </Link>
-        <br />
-        <br />
-        <strong>Impressum nach § 5 TMG</strong>
-        <br />
-        FollowTheGrant<br />
-        c/o IDIO Daten Import Export UG (haftungsbeschränkt)
+        followthegrant.org is operated by (Impressum nach § 5 TMG, ebenso
+        verantwortlich für den Inhalt nach § 55 Abs. 2 RStV):
+      </Paragraph>
+      <Paragraph>
+        IDIO Daten Import Export UG (haftungsbeschränkt)
         <br />
         ExRotaprint, Aufgang 4<br />
         Gottschedstr. 4<br />
