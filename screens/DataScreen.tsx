@@ -44,7 +44,7 @@ export default function DataScreen({ catalog }: { catalog: INKCatalog }) {
       </Paragraph>
       <Paragraph>
         Please <Link href="mailto:info@followthegrant.org">contact us</Link> if
-        you need access to our data or want to collaborate on an investigation.
+        you want to collaborate on an investigation.
       </Paragraph>
       <Headline level="h3" color="primary">
         Catalog

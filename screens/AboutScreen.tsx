@@ -59,10 +59,10 @@ export default function AboutScreen() {
         conflict of interest statements from scientific articles. Many
         scientific journals require their authors to disclose such conflicts of
         interest when publishing scientific articles. We aim to enable
-        journalists to quickly check what potential conflicts of interest a
-        particular expert has. It can also be the foundation for investigative
-        reporting looking at discrepancies in the disclosure of funding and
-        conflicts of interest.
+        journalists to check what potential conflicts of interest a particular
+        expert has. It can also be the foundation for investigative reporting
+        looking at discrepancies in the disclosure of funding and conflicts of
+        interest.
       </Paragraph>
       <Headline level="h3" color="primary">
         The team
@@ -78,6 +78,12 @@ export default function AboutScreen() {
         Year 2021” prize by the European Federation for Science Journalism.
         Hristio has worked for the German investigative non-profit Correctiv and
         the Science Media Center Germany.
+        <br />
+        <Link href="https://hrist.io">hrist.io</Link> |{" "}
+        <Link href="https://twitter.com/hristio">twitter</Link> |{" "}
+        <Link href="https://www.linkedin.com/in/hristio-boytchev-36047a1b2/">
+          LinkedIn
+        </Link>
       </Paragraph>
       <Headline level="h5">Simon Wörpel</Headline>
       <Paragraph>
