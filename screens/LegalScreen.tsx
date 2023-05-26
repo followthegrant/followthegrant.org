@@ -26,7 +26,7 @@ export default function LegalScreen() {
         Gottschedstr. 4<br />
         13357 Berlin
         <br />
-        Registered: Charlottenburg (Berlin), HRB 252764
+        Registered: Berlin (Charlottenburg), HRB 252764
         <br />
         Managing Director: Simon Wörpel
       </Paragraph>
