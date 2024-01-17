@@ -20,9 +20,8 @@ export default function LegalScreen() {
         verantwortlich für den Inhalt nach § 55 Abs. 2 RStV):
       </Paragraph>
       <Paragraph>
-        IDIO Daten Import Export UG (haftungsbeschränkt)
+        IDIO Daten Import Export GmbH
         <br />
-        ExRotaprint, Aufgang 4<br />
         Gottschedstr. 4<br />
         13357 Berlin
         <br />
