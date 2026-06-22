@@ -30,7 +30,8 @@ function Story({ story }: { story: Story }) {
       <Typography level="body2">{story.date}</Typography>
       <AspectRatio minHeight="120px" maxHeight="200px" sx={{ my: 2 }}>
         <Image
-          src={!!story.image_url ? story.image_url : defaultImg}
+          // src={!!story.image_url ? story.image_url : defaultImg}
+          src={defaultImg}
           loading="lazy"
           alt=""
           fill
